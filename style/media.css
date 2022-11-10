@@ -1,0 +1,220 @@
+@media(max-width:1100px) {
+    .nav {
+        padding: 0 100px;
+    }
+    .header__form{
+        margin-left: 100px;
+    }
+    .section__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section__text {
+        width: 900px;
+        text-align: center;
+    }
+    .products__content {
+        display: flex;
+       justify-content: center;
+        flex-wrap: wrap;
+    }
+    .contacts{
+        width: 900px;
+    }
+}
+@media(max-width:900px){
+    .nav{
+        padding: 0 35px;
+    }
+    .section__text {
+        width: 700px;
+        text-align: center;
+    }
+    .contacts{
+        width: 750px;
+    }
+    .header__form{
+        margin-left: 50px;
+    }
+}
+@media(max-width:800px){
+    .menu{
+        display: block;
+    }
+    .nav__inner{
+        position: fixed;
+        flex-direction: column;
+        z-index: 999;
+        backdrop-filter: blur(15px);
+        left: 0;
+        top: 0;
+        padding: 30px;
+        bottom: 0;
+        box-shadow: 1px 4px 20px 2px rgb(0 0 0 / 47%);
+        transform: translateX(-120%);
+        transition: 1s linear;
+    }
+    .header__list{
+        flex-direction: column;
+        row-gap: 5px;
+        margin-bottom: 5px;
+    }
+    .menu:focus+.nav__inner{
+        transform: translateX(0);
+    }
+    .contacts__text{
+        width: 350px;
+        
+    }
+    .contacts{
+        width: 650px;
+    }
+    .nav{
+        padding: 10px  100px;
+    }
+}
+@media(max-width:700px){
+    .section__text{
+        width: 555px;
+    }
+    .contacts__title{
+        font-size: 30px;
+        line-height: 34px;
+        margin-bottom: 25px;
+    }
+    .contacts__text{
+        font-size: 15px;
+        line-height: 24px;
+        max-width: 444px;
+    }
+    .contacts__link{
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .contacts__box{
+        row-gap: 10px;
+    }
+    .sarlovha{
+        font-size: 65px;
+        line-height: 80px;
+    }
+    .header__h2{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .header__content{
+        height: 700px;
+       
+    }
+    .section__title{
+        font-size: 30px;
+        line-height: 35px;
+        padding-top: 40px;
+    }
+    .products__title{
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 43px;
+    }
+    .products{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .contacts{
+        width: 600px;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:600px){
+    .product__img{
+        width: 130px;
+    }
+    .product__box{
+        min-height: 200px;
+    }
+    .product__title{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .header__more{
+        border-radius: 20px;
+        padding: 10px 60px;
+    }
+    .section__content{
+        padding-top: 20px;
+    }
+    .products{
+        padding-top: 23pb;
+        padding-bottom: 25px;
+    }
+    .contacts{
+        width: 425px;
+    }
+    .contacts__text{
+        max-width: 300px;
+    }
+    .footer__title{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .footer_link{
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .section__img{
+        padding-right: 0;
+        width: 420px;
+        height: 200px;
+    }
+    .section__text{
+        width: 420px;
+    }
+}
+@media(max-width:425px){
+    .sarlovha{
+        font-size: 45px;
+        line-height: 65px;
+    }
+    .header__h2{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .header__content{
+        height: 500px;
+    }
+    .contacts{
+        width: 325px;
+    }
+    .contacts__title{
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 15px;
+    }
+    .contacts__text{
+        font-size: 10px;
+        line-height: 18px;
+        max-width: 200px;
+    }
+    .contacts__link{
+        font-size: 10px;
+        line-height: 18px;
+    }
+    .contacts__box{
+        row-gap: 4px;
+    }
+    .contacts{
+        margin-bottom: 0;
+    }
+}
+@media(max-width:375px){
+    .section__img{
+        width: 370px;
+        height: 160px;
+    }
+    .section__text{
+        width: 370px;
+    }
+    
+}
